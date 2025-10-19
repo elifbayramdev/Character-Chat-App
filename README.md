@@ -1,26 +1,38 @@
-# Character-Chat-App
-The Character-Chat-App is a web-based application that allows users to interact with AI-driven characters in a chat interface. This app aims to provide engaging and personalized conversations with a variety of characters, each with unique personalities and backgrounds.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# Technologies Used
-- **Frontend**: React, Next.js, Tailwind CSS, shadcn
-- **Database**: Supabase
-- **LLM API**: Groq
-- **Authentication**: OAuth
+## Getting Started
 
-# Installation Steps
-1. Clone the repository: git clone https://github.com/elifbayramdev/Character-Chat-App.git
-2. Navigate into the project directory: cd Character-Chat-App
-3. Install dependencies: npm install
-4. To start the development server: npm run dev
+First, run the development server:
 
-# Environment variables:
-# Supabase
-NEXT_PUBLIC_SUPABASE_URL=https://lbhnbelhagmygikurgpf.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxiaG5iZWxoYWdteWdpa3VyZ3BmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjAzNTQ1NDMsImV4cCI6MjA3NTkzMDU0M30.GWXyQ3NiQlyaz6XYhU9a7zBgdqOSJw7WPcP9LIulJ2w
-SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxiaG5iZWxoYWdteWdpa3VyZ3BmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MDM1NDU0MywiZXhwIjoyMDc1OTMwNTQzfQ.f83Mq6J9LeEOOHCfuKWvJpe_yoQbG-a61qL4JByRmlw  
+```bash
+npm run dev# Character-Chat-App
+Character.AI–style chat application
 
-# GROQ (LLM)
-GROQ_API_KEY=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
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-# Google Auth
-NEXT_PUBLIC_GOOGLE_CLIENT_ID=911983645397-4qo16p9br9nf0j1nhpriuulp2lj2mh5j.apps.googleusercontent.com
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

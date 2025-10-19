@@ -17,7 +17,7 @@ export default function LoginPage() {
     await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `https://character-chat-mauve.vercel.app/chat`,
+                redirectTo: `${window.location.origin}/chat`
       },
     });
   };

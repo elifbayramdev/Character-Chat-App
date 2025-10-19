@@ -23,7 +23,7 @@ interface Character {
 }
 
 export default function ChatPageWrapper() {
-  const pathname = usePathname(); // /chat/<characterId>
+  const pathname = usePathname(); 
   const parts = pathname.split("/");
   const characterId = parts[2];
 
@@ -34,7 +34,7 @@ interface ChatPageProps {
   characterId: string;
 }
 
-export function ChatPage({ characterId }: ChatPageProps) {
+function ChatPage({ characterId }: ChatPageProps) {
   const { user, loading: authLoading } = useAuth();
   const [messages, setMessages] = useState<Message[]>([]);
   const [chatId, setChatId] = useState<string | null>(null);
